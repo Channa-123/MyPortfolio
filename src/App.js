@@ -27,11 +27,13 @@ function App() {
     <Services/>
     <Experience/>
     <Works/>
-    <Portfolio/>
+    <Portfolio>
+      <Testimonials/> 
+    </Portfolio>
     
     <Contact />
     <Footer/>
-   
+
     </div>
   );
 }
