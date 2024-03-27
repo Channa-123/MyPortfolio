@@ -45,7 +45,7 @@ const Portfolio = () => {
         </SwiperSlide> {" "}
         <SwiperSlide>
             <img src={ExpenceApp} alt='' />
-            <a href = "" >
+            <a href = "https://github.com/Channa-123/Expence-Master-App" >
             <button className='c-button'>Github Link </button>
             </a>
         </SwiperSlide>
