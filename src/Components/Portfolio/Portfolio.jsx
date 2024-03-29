@@ -7,6 +7,7 @@ import ExpenceApp from "../../img/ExpenceApp.png";
 import SignUpForm from "../../img/SignUpForm.png";
 import Navbar from "../../img/Navbar.png";
 import ContactForm from "../../img/ContactForm.png";
+import FaceRec from "../../img/FaceRec.png";
 import 'swiper/css'
 import { themeContext } from '../../Context';
 import { useContext } from "react";
@@ -21,7 +22,7 @@ const Portfolio = () => {
     <div className='portfolio' id='Portfolio'>
       {/* heading */}
       <span style={{color: darkMode? 'white': '' }}> My Recent </span>
-      <span>Project</span>
+      <span>Project</span> <br/>
 
 
       {/* slider */}
@@ -38,11 +39,17 @@ const Portfolio = () => {
             </a>
         </SwiperSlide>
         <SwiperSlide>
+            <img src={FaceRec} alt='' />
+            <a href = "https://github.com/Channa-123/Face-Recognition-System" >
+            <button className='c-button'>Github Link </button>
+            </a>
+        </SwiperSlide>
+        <SwiperSlide>
             <img src={ToDoList} alt='' />
             <a href = "https://github.com/Channa-123/TodoList" >
             <button className='c-button'>Github Link </button>
             </a>
-        </SwiperSlide> {" "}
+        </SwiperSlide>
         <SwiperSlide>
             <img src={ExpenceApp} alt='' />
             <a href = "https://github.com/Channa-123/Expence-Master-App" >
@@ -63,7 +70,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
             <img src={Navbar} alt='' />
-            <a href = "https://github.com/Channa-123?tab=repositories" >
+            <a href = "https://github.com/Channa-123/NavBar" >
             <button className='c-button'>Github Link </button>
             </a>
         </SwiperSlide>
