@@ -11,9 +11,9 @@ const Experience = () => {
   return (
     <div className='experience' id='Experience'>
      <div className='archivement'>
-        <div className='circle' style={{color: darkMode?'var(--orange)':''}}>8+</div>
-        <span style={{color: darkMode?'white':''}}>Years</span>
-        <span>Experience</span>
+        <div className='circle' style={{color: darkMode?'var(--orange)':''}}>2+</div>
+        <span style={{color: darkMode?'white':''}}>My</span>
+        <span>Certificates</span>
      </div>
      <div className='archivement'>
         <div className='circle' style={{color: darkMode?'var(--orange)':''}}>10+</div>
