@@ -28,8 +28,9 @@
   }
   .awesome > :nth-child(3) {
     color: var(--gray);
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 1rem;
+    margin-bottom: 2rem;
   }
   .s-button {
     width: 8rem;
@@ -57,7 +58,7 @@
   
   @media screen and (max-width: 480px) {
     .services {
-      margin-top: 0;
+      margin-top: 5;
       flex-direction: column;
       gap: 5rem;
       height: 66rem;
