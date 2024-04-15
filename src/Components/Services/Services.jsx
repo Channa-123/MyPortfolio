@@ -18,9 +18,12 @@ const Services = () => {
     <div className='services' id='Services'>
         {/* left side */}
         <div className='awesome'>
-            <span style={{color:darkMode? 'white': '' }}>My Awesome</span>
-            <span>Services</span>
-            <span>Lorem ispum is ........... <br /> ...........</span>
+            <span style={{color:darkMode? 'white': '' }}>My Last</span>
+            <span>Works</span>
+            <span>In my projects, I handle web design, development and <br />
+            UI/UX to create captivating digital experiences.<br />
+            I focus on crafting visually appealing webisites with <br />
+            intuitive interfaces to engauage usersf effectively.</span>
             <a href={Resume} download> 
             <button className='button s-button'> Download CV </button>
             </a>
