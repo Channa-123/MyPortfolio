@@ -2,20 +2,20 @@
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 90vh;
-    margin-top: 4rem;
+    margin-top: -2rem;
 }
 /* right side*/
 .w-right {
     position: relative;
 }
 .w-mainCircle{
-    left: 9rem;
+    left: 15rem;
     position: relative;
     width: 18rem;
     height: 18rem;
     border-radius: 100%;
     box-shadow: var(--smboxShadow);
-    top: 2rem;
+    top: -1rem;
     background: white;
 }
 .w-mainCircle>*{
@@ -66,13 +66,13 @@
 }
 .blueCircle{
     background: #194988;
-    left: 18rem;
-    top: 0rem;
+    left: 24rem;
+    top: -3rem;
 }
 .yellowCircle{
     background: #f5c32c;
-    left: 18rem;
-    top: 8rem;
+    left: 24rem;
+    top: 5rem;
 }
 
 @media screen and (max-width:480px) {
