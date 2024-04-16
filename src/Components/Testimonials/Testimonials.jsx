@@ -3,7 +3,9 @@ import './Testimonials.css'
 
 function Testimonials() {
   return (
+    
     <table className='pagiTable'>
+      
     <tr>
       <td>&lt;</td>
       <td>1</td>
