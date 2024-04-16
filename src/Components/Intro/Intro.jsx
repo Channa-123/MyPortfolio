@@ -81,7 +81,7 @@ const Intro = () => {
         style={{top: '22rem', left:'0rem'}}
         className='floating-div'
         >
-            <FlotingDiv image={thumbup} txt1="Best Design" txt2="Award"/>
+            <FlotingDiv image={thumbup} txt1="Mobile Application " txt2="Development"/>
         </motion.div>
 
         {/* blur divs */}
