@@ -1,10 +1,10 @@
 import React from 'react'
-import './Works.css' 
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import './Works.css'
+import adobexd from "../../img/adobexd.png";
+import reacticon from "../../img/Reacticon.png";
+import firebase from "../../img/firebase.jpg";
+import mongodb from "../../img/mongodb.png";
+import nodejs from "../../img/nodejs.png";
 import { themeContext } from '../../Context';
 import { useContext } from "react";
 import {motion} from 'framer-motion'
@@ -18,9 +18,12 @@ const Works = () => {
   return (
     <div className='Works'>
         <div className='awesome'>
-            <span style={{color: darkMode? 'white': '' }} >Works for All these</span>
-            <span>Brand & Clients </span>
-            <span>Lorem ispum is ........... <br /> ...........</span>
+            <span style={{color: darkMode? 'white': '' }} >THIS IS MY</span>
+            <span>Certificates </span>
+            <span><a href='https://open.uom.lk/lms/mod/customcert/view.php?id=697&downloadown=1'>
+                Web Design for Beginners E-Certificate </a> - University of Moratuwa 
+                <br /><br /> <a href='https://www.coursera.org/account/accomplishments/verify/KGZPMKKXV92Q'>
+                    HTML, CSS, and Javascript for Web Developers </a> - Coursera</span><br /><br />
             <button className='button s-button'> Hire Me</button>
             
             <div className='blur s-blur' style={{ background: "#ABF1FF94" }}></div>
@@ -36,19 +39,19 @@ const Works = () => {
 
             className='w-mainCircle'>
             <div className='w-secCircle'>
-                <img src={Upwork} alt="" />
+                <img src={adobexd} alt="" width={100} height={100} />
             </div>
             <div className='w-secCircle'>
-                <img src={Fiverr} alt="" />
+                <img src={reacticon} alt="" width={100} height={100} />
             </div>
             <div className='w-secCircle'>
-                <img src={Amazon} alt="" />
+                <img src={mongodb} alt="" width={100} height={100} />
             </div>{" "}
             <div className='w-secCircle'>
-                <img src={Shopify} alt="" />
+                <img src={firebase} alt="" width={100} height={100} />
             </div>
             <div className='w-secCircle'>
-                <img src={Facebook} alt="" />
+                <img src={nodejs} alt="" width={100} height={100} />
             </div>
         </motion.div>
         {/* background Circles */}
