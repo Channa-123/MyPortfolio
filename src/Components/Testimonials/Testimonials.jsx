@@ -7,12 +7,12 @@ function Testimonials() {
     <table className='pagiTable'>
       
     <tr>
-      <td>&lt;</td>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-      <td>5</td>
+      
+    
+      <td>See </td>
+      <td>More...</td>
+      
+    
       <td>&gt;</td>
     </tr>
     </table>
