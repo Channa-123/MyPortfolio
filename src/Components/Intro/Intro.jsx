@@ -31,14 +31,11 @@ const Intro = () => {
             University of Sri Jayewardenepura <br/>
             Bachelor of Information andCommunication Technology <br/>
             2021 - Present</span>
-            <span><h2> I am an undergraduate student specializing in software 
-              technology at the University of Sri Jayawardenepura. 
-              I have learned programming languages such as Java, Python, 
-              C++, and JavaScript, and I am passionate about using technology 
-              to solve real-world problems. With experience in web development, 
-              database management and software engineering principles, I thrive 
-              in collaborative environments and enjoy contributing to innovative 
-              projects while continually expanding my skills.
+            <span><h2> I am an undergraduate student specializing in software technology 
+              at the University of Sri Jayewardenepura. I am passionate about using 
+              technology to solve real-world problems ,  seeking opportunities to 
+              leverage my skills and passion for web development in a challenging role 
+              and enjoy contributing to innovative projects while continually expanding my skills.
               </h2>
             </span>
         </div>
