@@ -28,14 +28,18 @@ const Intro = () => {
         <div className='i-name'>
             <span style={{color: darkMode? 'white': '' }}>Hy! I Am </span>
             <span>Channa Prasad</span> <span>
+            Faculty Of Technology, <br/>
             University of Sri Jayewardenepura <br/>
-            Bachelor of Information andCommunication Technology <br/>
-            2021 - Present</span>
-            <span><h2> I am an undergraduate student specializing in software technology 
-              at the University of Sri Jayewardenepura. I am passionate about using 
-              technology to solve real-world problems ,  seeking opportunities to 
-              leverage my skills and passion for web development in a challenging role 
-              and enjoy contributing to innovative projects while continually expanding my skills.
+            Bachelor of Information and Communication Technology - Software Technology <br/>
+            2021 - 2025</span>
+            <span><h2> I am a graduate student specializing in Software Technology at 
+              the University of Sri Jayewardenepura. Results-driven Full-Stack Developer 
+              with hands-on experience in both frontend and backend development, specializing 
+              in React.js, Next.js, Node.js, MongoDB, and Tailwind CSS. I am passionate about 
+              building scalable web applications, optimizing APIs, improving user experiences 
+              and using technology to solve real-world problems. I have experience working in 
+              Agile environments and delivering high-quality, efficient solutions.
+
               </h2>
             </span>
         </div>
