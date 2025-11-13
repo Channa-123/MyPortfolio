@@ -36,7 +36,7 @@ const Portfolio = () => {
       grabCursor={true}
       className='portfolio-slider'
       >
-        {/* <SwiperSlide>
+        <SwiperSlide>
             <img src={Reserch} alt='' />
             <a href = "https://www.linkedin.com/posts/channa-prasad-95a5322a5_finalyearproject-python-flutter-activity-7345175982409949184-xv2L?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmVUdYBbjWml4NEhmvKkXkx0KDJ8slLfU0" >
             <button className='c-button'>Linkedln </button>
@@ -65,7 +65,7 @@ const Portfolio = () => {
             <a href = "" >
             <button className='c-button'>Github Link </button>
             </a>
-        </SwiperSlide> */}
+        </SwiperSlide>
         <SwiperSlide>
             <img src={FaceRec} alt='' />
             <a href = "https://www.linkedin.com/posts/channa-prasad-95a5322a5_attendancesystem-teamcollaboration-python-activity-7178844755290718209-1rhQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmVUdYBbjWml4NEhmvKkXkx0KDJ8slLfU0" >
