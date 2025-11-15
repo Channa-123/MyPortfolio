@@ -25,9 +25,9 @@ function Navbar  ()  {
                     <Link spy={true} to='Portfolio' smooth={true}>
                     <li>Projects</li>
                     </Link>
-                    <Link spy={true} to='Testimonials' smooth={true} >
+                    {/* <Link spy={true} to='Testimonials' smooth={true} >
                     <li>Testimonials</li>
-                    </Link>
+                    </Link> */}
                     
                 </ul>
             </div>
