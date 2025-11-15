@@ -70,7 +70,7 @@ const Intro = () => {
         style={{top:'-4%', left: '68%'}}
         className='floating-div'
         >
-            <FlotingDiv image ={Crown} txt1="web" txt2="Developer"/>
+            <FlotingDiv image ={Crown} txt1="Web" txt2="Developer"/>
         </motion.div>
 
         <motion.div 
@@ -87,7 +87,7 @@ const Intro = () => {
         <div className='blur' style={{background:"rgb(238 210 255 "}} ></div>
         <div className='blur'
         style={{
-            background: '#C1F5FF',
+            background: '#9ddfecff',
             top: '17rem',
             width: '21rem',
             height: '11rem',
