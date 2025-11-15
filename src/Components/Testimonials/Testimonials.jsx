@@ -5,16 +5,7 @@ function Testimonials() {
   return (
     
     <table className='pagiTable'>
-      
-    <tr>
-      
     
-      <td>See </td>
-      <td>More...</td>
-      
-    
-      <td>&gt;</td>
-    </tr>
     </table>
   )
 }
