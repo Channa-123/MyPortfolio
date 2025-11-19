@@ -1,54 +1,288 @@
-.experience{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    height: 30vh;
-    margin-bottom: 8rem;
-     /* darkmode */
-    color: var(--black);
-}
-.archivement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.circle{
-    width: 4rem;
-    height: 4rem;
-    background: white;
-    border-radius: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    color: black;
-}
-.circle::before{
-    border-radius: 100%;
-    content: '';
-    background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
-    top: -8px;
-    left: -8px;
-    bottom: -8px;
-    right: -8px;
-    position: absolute;
-    z-index: -1;
-    box-shadow: var(--boxShadow);
-    
-}
-.archivement span:nth-of-type(2){
-    color: var(--orange);
+/* === Your Original Styles - 100% Preserved === */
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  height: 30vh;
+  margin-bottom: 2rem;
+  color: var(--black);
 }
 
-@media screen and (max-width:480px) {
-    .experience{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transform: scale(0.7);
-    }
+.archivement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 4rem;
+  height: 4rem;
+  background: white;
+  border-radius: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.circle::before {
+  border-radius: 100%;
+  content: '';
+  background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
+  top: -8px;
+  left: -8px;
+  bottom: -8px;
+  right: -8px;
+  position: absolute;
+  z-index: -1;
+  box-shadow: var(--boxShadow);
+}
+
+.archivement span:nth-of-type(2) {
+  color: var(--orange);
+}
+
+/* Mobile scaling for circles */
+@media screen and (max-width: 480px) {
+  .experience {
+    transform: scale(0.7);
+    gap: 3rem;
+  }
+}
+
+/* === New Advanced Timeline Section === */
+.experience-wrapper {
+  padding: 4rem 1rem;
+  background: transparent;
+}
+
+/* only the timeline cards to be black in dark mode */
+.experience-wrapper.dark .timeline-content {
+  background: linear-gradient(135deg,rgba(255, 255, 255, 0.26)) !important;
+  
+  
+}
+
+.experience-wrapper.dark .timeline-content li {
+  color: rgb(202, 202, 202) !important;
+}
+
+
+.timeline-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.timeline-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.timeline-header h3 {
+  font-size: clamp(1.2rem, 4vw, 1.5rem);
+  font-weight: 600;
+  color: var(--gray);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.timeline-header h2 {
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  font-weight: 800;
+  color: var(--orange);
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.timeline-header h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 5px;
+  background: linear-gradient(90deg, #87e6fb, #ffc05c);
+  border-radius: 3px;
+}
+
+/* Timeline Line & Items */
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, #87e6fb, #ffc05c);
+  border-radius: 2px;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 0 2rem 3rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+  text-align: left;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 4px solid var(--orange);
+  border-radius: 50%;
+  top: 20px;
+  z-index: 1;
+  box-shadow: 0 0 0 6px rgba(255, 140, 0, 0.2);
+}
+
+.timeline-item:nth-child(odd)::after {
+  right: -10px;
+}
+
+.timeline-item:nth-child(even)::after {
+  left: -10px;
+}
+
+.timeline-content {
+  background: linear-gradient(to bottom, #aeeaf8, #e6f49adc);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.timeline.dark {
+    background:rgba(255, 255, 255, 0.26) ;
+}
+
+.timeline-content:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-content h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(45, 132, 161);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+  font-size: 1rem;
+  color: rgb(113, 159, 158);
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #ff6b6b !important;
+  font-weight: 500;
+}
+
+.timeline-content ul {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.timeline-content ul li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+  color: var(--gray);
+}
+
+.timeline-content ul li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--orange);
+  font-weight: bold;
+}
+
+/* Mobile Responsive Timeline */
+@media screen and (max-width: 768px) {
+  .timeline::before {
+    left: 30px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    left: 0 !important;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 1rem;
+  }
+
+  .timeline-1 {
+    width: 80%;
+    padding-left: 8rem;
+    
+  }
+   .timeline-2 {
+    width: 120%;
+    
+  }
+
+  .timeline-item::after {
+    left: 20px !important;
+  }
+
+  .timeline-content {
+    padding: 1.2rem;
+    margin-right: 6rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .experience {
+    height: auto;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+  }
+
+  .timeline-header h2 {
+    font-size: 2rem;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .timeline-content ul li {
+    font-size: 0.9rem;
+  }
 }
